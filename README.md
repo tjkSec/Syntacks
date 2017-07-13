@@ -11,6 +11,7 @@ https://git.io/vQ9Nj
 - [ ] More customization
 - [ ] Optimization
 - [ ] Number lines
+- [ ] Real time editability
 
 ## Issues to be fixed 
 - [ ] Html tags break as using dangerouslySetInnerHTML to add the span element around regExp
