@@ -9,4 +9,12 @@ https://git.io/vQ9Nj
 - [ ] Fix html tag issue.
 - [ ] More themes!
 - [ ] More customization
-- <img src='http://progressed.io/bar/0'/>Optimization
+- [ ] Optimization     
+
+# Current Themes
+Again demonstrated here, but here is a complete list.
+- default(def)
+- atomic
+- emacs
+- warm
+- cli-windows(cli_win)
