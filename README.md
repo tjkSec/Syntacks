@@ -9,7 +9,8 @@ https://git.io/vQ9Nj
 - [ ] Fix html tag issue.
 - [ ] More themes!
 - [ ] More customization
-- [ ] Optimization     
+- [ ] Optimization
+- [ ] Number lines
 
 ## Issues to be fixed 
 - [ ] Html tags break as using dangerouslySetInnerHTML to add the span element around regExp
