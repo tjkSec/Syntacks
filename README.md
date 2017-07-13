@@ -11,6 +11,10 @@ https://git.io/vQ9Nj
 - [ ] More customization
 - [ ] Optimization     
 
+# Issues to be fixed 
+- [ ] Html tags break as using dangerouslySetInnerHTML to add the span element around regExp
+- [ ] No number support as changing the colors of numerical values with a regExp breaks as using dangerouslySetInnerHTML to add the span element around regExp
+
 # Current Themes
 Again demonstrated here, but here is a complete list.
 - default(def)
