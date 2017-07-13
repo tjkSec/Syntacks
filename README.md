@@ -12,6 +12,7 @@ https://git.io/vQ9Nj
 - [ ] Optimization
 - [ ] Number lines
 - [ ] Real time editability
+- [ ] File size is current 16kb (not minimized or optimized), make this lower.
 
 ## Issues to be fixed 
 - [ ] Html tags break as using dangerouslySetInnerHTML to add the span element around regExp
