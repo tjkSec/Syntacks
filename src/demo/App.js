@@ -5,11 +5,41 @@ import "./App.css";
 class App extends Component {
   constructor(props) {
     super(props);
+    const myCode = `
+function iHateDays() {
+  const days = [
+    "sunday",
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday"
+  ];
+  const noDays = [];
+  days.forEach((el, id) => {
+    const x = el.split("");
+    x.splice(-3);
+    noDays.push(x.join(""));
+  });
+  return noDays.join(" | ");
+}
+
+// I really hate the days of the week...
+document.getElementById('#myheader').textContent = iHateDays();
+
+/* I really, really hate them... */
+
+`;
     this.state = { name: "default" };
     this.state = { theme: "def" };
+    this.state = { codeTE: myCode};
   }
   handleChange(e) {
     this.setState({ theme: e.target.value });
+  }
+  handleWrite(e){
+    this.setState({codeTE: e.target.value})
   }
   render() {
     const mySyntaxWrapper = {
@@ -48,38 +78,11 @@ class App extends Component {
       "box-shadow": "0px 2px 26px -3px rgba(0,0,0,0.35)"
     };
 
-    const myCode = `
-function iHateDays() {
-  const days = [
-    "sunday",
-    "monday",
-    "tuesday",
-    "wednesday",
-    "thursday",
-    "friday",
-    "saturday"
-  ];
-  const noDays = [];
-  days.forEach((el, id) => {
-    const x = el.split("");
-    x.splice(-3);
-    noDays.push(x.join(""));
-  });
-  return noDays.join(" | ");
-}
-
-// I really hate the days of the week...
-document.getElementById('#myheader').textContent = iHateDays();
-
-/* I really, really hate them... */
-
-`;
-
     // alert(JSON.stringify(myCoolTheme.add()))
     return (
       <div>
         <div style={mySyntaxWrapper}>
-          <Syntack theme={this.state.theme} code={myCode} />
+          <Syntack theme={this.state.theme} code={this.state.codeTE} />
           <h4 style={Header}>
             Choose a theme! Current: {this.state.theme}
           </h4>
@@ -99,6 +102,7 @@ document.getElementById('#myheader').textContent = iHateDays();
             <option value='dracula'>dracula</option>
 			      <option value='github'>github</option>
           </select>
+          <textarea className="textarea" onChange={e => this.handleWrite(e)}></textarea>
         </div>
         <span className="github">
           <a href="github.com">github</a>

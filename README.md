@@ -29,7 +29,7 @@ Again demonstrated <a href='https://git.io/vQ9Nj'>here</a>, but here is a comple
 To create your own custom theme all you have to do is define one with its properties like so...
 Note: The parameters follow the below template...
 ```javascript
-/* 
+/*
   > color
   > bgColor
   > spineColor
@@ -69,3 +69,56 @@ const myCoolTheme = new SyntackThemes(
 
 #### And wallaa your done!
 <img src='http://i.imgur.com/aY0qpH4.png'/>
+
+
+## Real time editor /w syntax
+In order to create a real time text editor with your theme you just have to input some super simple react code.
+Try putting this into your react component to achieve the same effect as the example <a src='http://git.io/nQ9Nj'>here.</a>
+
+```javascript
+import {Component} from 'react';
+import {Syntack} from '../syntack/syntack.js';
+
+class myComponent extends Component {
+  constructor(props) {
+    super(props)
+    this.state = { editedCode: ''};
+  }
+  handleCode(e) {
+    this.setState({editedCode: e.target.value});
+  }
+  render() {
+    const SyntaxOutput = {
+      "width":"500px",
+      "height":"350px",
+      "position":"absolute",
+      "transform":"translate(-50%, -50%)",
+      "left":"50%",
+      "top":"40%"
+    };
+
+
+    const defaultInput = {
+      "width":"500px",
+      "height":"200px",
+      "position":"absolute",
+      "transform":"translate(-50%, -50%)",
+      "left":"50%",
+      "top":"80%"
+    };
+
+    return(
+        <div>
+          <div style={SyntaxOutput}>
+            <Syntack theme='github' code={this.state.editedCode}/>
+          </div>
+          <textarea onChange={e => this.handleCode(e)} style={defaultInput} />
+        </div>
+      );
+    )
+  }
+}
+```
+
+#### and tada! you have your real time input-output textarea.
+But you want a real time editor with the same input and output, don't fear! thats next.
