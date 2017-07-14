@@ -1,4 +1,4 @@
-# Syntacks
+<img src='http://i.imgur.com/sRlENh2.jpg'/>
 
 > Dependency free syntax highlighter for react.
 
