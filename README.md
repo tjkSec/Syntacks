@@ -6,17 +6,11 @@ I have created some default themes below if you want to see my progress as of la
 https://git.io/vQ9Nj
 
 ## Progress [13/07/2017]
-- [ ] Fix html tag issue.
 - [ ] More themes!
 - [ ] More customization
 - [ ] Optimization
-- [ ] Number lines
 - [ ] Real time editability
 - [ ] File size is current 16kb (not minimized or optimized), make this lower.
-
-## Issues to be fixed 
-- [ ] Html tags break as using dangerouslySetInnerHTML to add the span element around regExp
-- [ ] No number support as changing the colors of numerical values with a regExp breaks as using dangerouslySetInnerHTML to add the span element around regExp
 
 ## Current Themes
 Again demonstrated <a href='https://git.io/vQ9Nj'>here</a>, but here is a complete list.
