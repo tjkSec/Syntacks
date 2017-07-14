@@ -44,6 +44,9 @@ Note: The parameters follow the below template...
 #### So lets define our template and it's syntax.
 
 ```javascript
+/* Note: You must import the package into your app, lile so... */
+import {Syntack, SyntackThemes} from '../syntack/syntack.js';
+
 const myCoolTheme = new SyntackThemes(
 	'rgb(255, 255, 255)',
 	'rgb(41, 43, 57)',
