@@ -6,6 +6,7 @@ I have created some default themes below if you want to see my progress as of la
 https://git.io/vQ9Nj
 
 ## Progress [13/07/2017]
+- [ ] Other languages support
 - [ ] More themes!
 - [ ] More customization
 - [ ] Optimization
