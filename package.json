@@ -1,7 +1,7 @@
 {
   "name": "syntacks",
   "version": "0.1.0",
-  "homepage": "https://tjksec.github.io/syntacks/build/",
+  "homepage": "https://tjksec.github.io/syntacks/build",
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
