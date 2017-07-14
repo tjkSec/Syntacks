@@ -31,6 +31,7 @@ export var parsedFunc = (__code__, __theme__) => {
 	  specialCommentReg,
 	  `<span style='${__theme__.comment}'>$1</span>`
 	);
+
 	return parsed = parsed.replace(
 	  inlineCommentReg,
 	  `<span style="${__theme__.comment}">$1</span>`

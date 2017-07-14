@@ -87,6 +87,9 @@ document.getElementById('#myheader').textContent = iHateDays();
 						<option value="emacs">emacs</option>
 						<option value="warm">warm</option>
 						<option value="cli_win">cli-windows</option>
+						<option value='cli_gnome'>cli-ubuntu/gnome</option>
+						<option value='folk'>folk</option>
+						<option value='distinct'>distinct</option>
 					</select>
 				</div>
 				<span className='github'><a href='github.com'>github</a></span>

@@ -1,6 +1,16 @@
 import React, {Component} from 'react';
-import {def, atomic, emacs, warm, cli_win} from './themes.js';
-import {parsedFunc} from './syntax.js'
+import {
+	def,
+	atomic,
+	emacs,
+	warm,
+	cli_win,
+	cli_gnome,
+	folk,
+	distinct
+} from './themes.js';
+import {parsedFunc} from './syntax.js';
+import './syntack.css';
 export class Syntack extends Component {
 	render() {
 
@@ -14,21 +24,29 @@ export class Syntack extends Component {
 				break;
 			case 'atomic':
 				theme = atomic;
-				break
+				break;
 			case 'emacs':
 				theme = emacs;
-				break
+				break;
 			case 'warm':
 				theme = warm;
-				break
+				break;
 			case 'cli_win':
 				theme = cli_win;
 				break;
+			case 'cli_gnome':
+				theme = cli_gnome;
+				break;
+			case 'folk':
+				theme = folk;
+				break;
+			case 'distinct':
+				theme = distinct;
+				break;
 		}
-
 		return (
 			<div style={theme.wrapper} id='test'>
-				<pre dangerouslySetInnerHTML={{__html : parsedFunc(this.props.code, theme)}}></pre>
+				<pre id='sytacked' dangerouslySetInnerHTML={{__html : parsedFunc(this.props.code, theme)}}></pre>
 			</div>
 		);
 	}
