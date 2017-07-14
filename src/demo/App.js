@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Syntack} from '../syntack/syntack.js';
+import {Syntack, SyntackThemes} from '../syntack/syntack.js';
 import './App.css';
 
 class App extends Component {
@@ -74,6 +74,8 @@ document.getElementById('#myheader').textContent = iHateDays();
 /* I really, really hate them... */
 
 `;
+
+	// alert(JSON.stringify(myCoolTheme.add()))
 		return (
 			<div>
 				<div style={mySyntaxWrapper}>
