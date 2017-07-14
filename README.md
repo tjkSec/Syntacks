@@ -37,7 +37,9 @@ Note: The parameters follow the below template...
   > commentColor
 */
 ```
-So lets define our template and it's syntax.
+
+#### So lets define our template and it's syntax.
+
 ```javascript
 const myCoolTheme = new SyntackThemes(
 	'rgb(255, 255, 255)',
@@ -54,10 +56,10 @@ const myCoolTheme = new SyntackThemes(
 // Note: you don't need to specifically use rgb it's just what I am using in this example.
 ```
 
-Finally add your cool new theme to your Syntack pre component.
+#### Finally add your cool new theme to your Syntack pre component.
 ```javascript
 <Syntack customTheme={myCoolTheme.compiled()} code={myCode}/>
 ```
 
-And wallaa your done!
+#### And wallaa your done!
 <img src='http://i.imgur.com/aY0qpH4.png'/>
