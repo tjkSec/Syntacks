@@ -8,7 +8,7 @@ https://git.io/vQ9Nj
 ## Progress [13/07/2017]
 - [ ] Other languages support
 - [ ] More themes!
-- [ ] More customization
+- [X] More customization
 - [ ] Optimization
 - [ ] Real time editability
 - [ ] File size is current 16kb (not minimized or optimized), make this lower.
@@ -20,6 +20,9 @@ Again demonstrated <a href='https://git.io/vQ9Nj'>here</a>, but here is a comple
 - emacs
 - warm
 - cli-windows(cli_win)
+- cli-ubuntu/gnome(cli_gnome)
+- folk
+- distinct
 
 ## Creating custom themes
 To create your own custom theme all you have to do is define one with its properties like so...
