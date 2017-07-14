@@ -101,7 +101,6 @@ export class Syntack extends Component {
     } else {
       theme = this.props.customTheme;
     }
-    console.log(JSON.stringify(def))
     return (
       <div style={theme.wrapper} id="test">
         <pre

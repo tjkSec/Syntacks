@@ -6,6 +6,10 @@ This is still under development, I am still adding things and fixing bugs. When 
 I have created some default themes below if you want to see my progress as of late.
 https://git.io/vQ9Nj
 
+I have decided to more all themes after the current list exceeds 20, for file size.
+You can find customly created themes here and even upload your own.
+https://goo.gl/iUrPZ7
+
 ## Progress [13/07/2017]
 - [ ] Other languages support
 - [ ] More themes!
@@ -121,4 +125,3 @@ class myComponent extends Component {
 ```
 
 #### and tada! you have your real time input-output textarea.
-But you want a real time editor with the same input and output, don't fear! thats next.
