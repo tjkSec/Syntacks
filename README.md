@@ -11,7 +11,7 @@ https://git.io/vQ9Nj
 - [X] More customization
 - [ ] Optimization
 - [ ] Real time editability
-- [ ] File size is current 16kb (not minimized or optimized), make this lower.
+- [ ] File size is current 20kb (not minimized or optimized), make this lower.
 
 ## Current Themes
 Again demonstrated <a href='https://git.io/vQ9Nj'>here</a>, but here is a complete list.
