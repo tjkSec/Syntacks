@@ -25,7 +25,7 @@ Add your syntack box...
 <img src="http://i.imgur.com/2i7itWY.gif"/>
 
 And you're done :) :+1:
-<img src="http://i.imgur.com/MN0Rb94.png"/>
+<img src="https://dl.dropboxusercontent.com/1/view/zsbuv1gmgisoxld/Apps/Shutter/Selection_002.png"/>
 
 ## Current Themes
 
