@@ -12,6 +12,9 @@
 # trash
 /public
 /firefox_root
+/src/demo
+/src/index.js
+/src/registerServiceWorker.js
 
 # misc
 .DS_Store
