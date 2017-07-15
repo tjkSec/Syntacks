@@ -26,6 +26,7 @@ Add your syntack box...
 
 And you're done :) :+1:
 <img src="http://i.imgur.com/MN0Rb94.png"/>
+
 ## Current Themes
 
 Default themes are found here <https://git.io/vQ9Nj> and user uploaded custom themes here <https://goo.gl/iUrPZ7>
