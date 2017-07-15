@@ -14,13 +14,15 @@ Demo: <https://git.io/vQ9Nj>
 
 Upload/browse themes: <https://goo.gl/iUrPZ7>
 
-## Progress [13/07/2017]
+## Installation
+Copy the file your download like so...
+<img src="http://i.imgur.com/HbLuHKU.gif"/>
 
-- [ ] Other languages support
-- [X] More themes!
-- [X] More customization
-- [ ] Optimization
-- [ ] File size is current 20kb (not minimized or optimized), make this lower.
+Import it into your file...
+<img src="http://i.imgur.com/HwMK5Lv.gif"/>
+
+Add your syntack box...
+<img src="http://i.imgur.com/2i7itWY.gif"/>
 
 ## Current Themes
 
