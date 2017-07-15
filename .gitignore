@@ -11,6 +11,7 @@
 
 # trash
 /public
+/firefox_root
 
 # misc
 .DS_Store
