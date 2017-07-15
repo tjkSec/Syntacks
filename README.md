@@ -4,7 +4,11 @@
 
 ![](http://i.imgur.com/y2xjYfG.gif)
 
-This is still under development, I am still adding things and fixing bugs. When the I reach a point of stabiltity I am going to clean up this repo and make sure everything is optimised, clean and minimized. The component is scaled 100% wide and 100% high relative to the div .wrapper which contains it. This allows for a full customization for height, width and other things such as transitions and box shadows.
+The component is scaled 100% wide and 100% high relative to the div .wrapper which contains it. This allows for a full customization for height, width and other things such as transitions and box shadows.
+
+Download via npm: https://www.npmjs.com/package/syntacks
+
+``` npm install syntacks ```
 
 Demo: <https://git.io/vQ9Nj>
 
