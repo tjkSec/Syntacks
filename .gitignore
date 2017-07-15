@@ -15,6 +15,7 @@
 /src/demo
 /src/index.js
 /src/registerServiceWorker.js
+/src/production
 
 # misc
 .DS_Store
