@@ -9,7 +9,9 @@ import {
   folk,
   distinct,
   dracula,
-  github
+  github,
+  ice,
+  brass
 } from "./themes.js";
 import { parsedFunc } from "./syntax.js";
 export class SyntackThemes {
@@ -96,6 +98,12 @@ export class Syntack extends Component {
     		  break;
         case 'github':
           theme = github;
+          break;
+        case 'ice':
+          theme = ice;
+          break;
+        case 'brass':
+          theme = brass;
           break;
       }
     } else {

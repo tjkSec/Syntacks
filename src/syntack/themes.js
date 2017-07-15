@@ -161,3 +161,33 @@ export const github = {
   comment: "color:rgb(89, 89, 89);font-style: italic;"
 };
 Object.assign(github.wrapper, __static__);
+
+export const ice = {
+  wrapper: {
+    color: "#d4d4d4",
+    backgroundColor: "rgb(66, 62, 116)",
+    borderLeft: "40px solid rgb(54, 50, 96)"
+  },
+  quotes: "color:#8a9ba1",
+  condition: "color:#82c0d1",
+  globals: "color:#7ec295",
+  basicMethod: "color: #58c9ae",
+  special: "color:#bccdae",
+  comment: "color:rgb(131, 131, 131);font-style: italic;"
+};
+Object.assign(ice.wrapper, __static__);
+
+export const brass = {
+  wrapper: {
+    color: "#dbdbdb",
+    backgroundColor: "rgb(96, 86, 75)",
+    borderLeft: "40px solid rgb(85, 76, 66)"
+  },
+  quotes: "color:#d2b6af",
+  condition: "color:#ff5a36",
+  globals: "color:#c97e7e",
+  basicMethod: "color: #c17a5b",
+  special: "color:#bdb35c",
+  comment: "color:rgb(131, 131, 131);font-style: italic;"
+};
+Object.assign(brass.wrapper, __static__);

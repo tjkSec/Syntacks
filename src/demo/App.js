@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+// eslint-disable-next-line
 import {Syntack, SyntackThemes} from "../syntack/syntack.js";
 import "./App.css";
 
@@ -84,25 +85,27 @@ document.getElementById('#myheader').textContent = iHateDays();
 			"box-shadow": "0px 2px 26px -3px rgba(0,0,0,0.35)"
 		};
 
-		// alert(JSON.stringify(myCoolTheme.add()))
 		return (
 			<div>
 				<div style={mySyntaxWrapper}>
 					<Syntack theme={this.state.theme} code={this.state.codeTE}/>
 					<h4 style={Header}>
-						Choose a theme! Current: {this.state.theme}
+						Select a default theme! Current: {this.state.theme}
 					</h4>
 					<select style={SelectTheme} value={this.state.theme} onChange={e => this.handleChange(e)}>
-						<option value="def">default</option>
-						<option value="atomic">atomic</option>
-						<option value="emacs">emacs</option>
-						<option value="warm">warm</option>
-						<option value="cli_win">cli-windows</option>
-						<option value="cli_gnome">cli-ubuntu/gnome</option>
-						<option value="folk">folk</option>
-						<option value="distinct">distinct</option>
-						<option value='dracula'>dracula</option>
-						<option value='github'>github</option>
+            <optgroup label="Default Themes"/>
+  						<option value="def">default</option>
+  						<option value="atomic">atomic</option>
+  						<option value="emacs">emacs</option>
+  						<option value="warm">warm</option>
+  						<option value="cli_win">cli-windows</option>
+  						<option value="cli_gnome">cli-ubuntu/gnome</option>
+  						<option value="folk">folk</option>
+  						<option value="distinct">distinct</option>
+  						<option value='dracula'>dracula</option>
+  						<option value='github'>github</option>
+              <option value='ice'>ice</option>
+              <option value='brass'>brass</option>
 					</select>
 					<textarea className="textarea" value={this.state.codeTE} onChange={e => this.handleWrite(e)}></textarea>
 				</div>
